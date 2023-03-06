@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.card{
+    border: 1px solid gray;
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    right: 205px;
+    top: 50px;
+    display: none;
+    position: fixed;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px 15px 25px;
+}
+.photo-block{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    height: 33%;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.24);
+    padding: 15px;
+    border: 1px solid gray;
+}
+.info-block{
+    height: 150px;
+}
+.label{
+    font-weight: bold;
+}
+.name{
+    text-transform: uppercase;
+}
+.photo{
+    width: 250px;
+    height: 200px;
+}
+
